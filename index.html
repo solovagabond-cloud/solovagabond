@@ -1,13 +1,55 @@
-<html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
-</head>
-<body>
-    <h1>Hello, World!</h1>
-    <p>Welcome to my website.</p>
-</body>
-</html>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Solo Vagabond: one trip around the world</title>
+<meta name="description" content="Matty’s slow-travel journey around the world, started with a one-way EVA Air flight from JFK to Taiwan on December 10, 2019.">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Archivo:wght@600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#063b4a;--row:#0a5568;--amber:#7ff0d0;--text:#effcfb;--dim:#92c5cc;--ok:#c6f432}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:1rem/1.6 "Space Mono",Menlo,monospace}
+a{color:var(--amber)}a:focus-visible{outline:3px solid var(--amber);outline-offset:3px}
+.wrap{max-width:62rem;margin:0 auto;padding:0 1.25rem}
+header{padding:1.5rem 0;display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem;border-bottom:2px solid var(--amber)}
+.brand{font:800 1.5rem Archivo,Arial,sans-serif;color:var(--text);text-decoration:none}
+.clock{color:var(--amber);font-weight:700}
+h1{font:800 clamp(2.2rem,6vw,4.2rem)/1.05 Archivo,Arial,sans-serif;margin:3rem 0 1rem;max-width:16ch}
+.lede{max-width:40rem;color:var(--dim)}
+h2{font:800 1.4rem Archivo,Arial,sans-serif;margin:3rem 0 1rem;color:var(--amber)}
+.board{border-collapse:collapse;width:100%}
+.board th{text-align:left;color:var(--dim);font-weight:400;padding:.4rem .8rem;font-size:.85rem}
+.board td{background:var(--row);padding:.9rem .8rem;border-top:3px solid var(--bg);vertical-align:top}
+.board td:first-child{color:var(--amber);font-weight:700;white-space:nowrap}
+.status{font-weight:700;white-space:nowrap}.ok{color:var(--ok)}.go{color:var(--amber)}
+.facts{display:flex;flex-wrap:wrap;gap:1rem;margin:2.5rem 0 0}
+.facts div{flex:1 1 12rem;border:2px solid var(--dim);padding:1rem}
+.facts b{display:block;font:800 2.4rem Archivo,Arial,sans-serif;color:var(--amber)}
+.facts h3{margin:0 0 .4rem;color:var(--amber);font:800 1.2rem Archivo,Arial,sans-serif}
+.wip{margin:1.5rem 0 0;padding:.9rem 1.1rem;border:2px dashed var(--amber);color:var(--amber);font-weight:700}
+.links{display:flex;flex-wrap:wrap;gap:.75rem;list-style:none;padding:0}
+.links a{display:block;padding:.7rem 1.2rem;border:2px solid var(--amber);text-decoration:none;font-weight:700}
+.links a:hover{background:var(--amber);color:var(--bg)}
+footer{margin:4rem 0 2rem;color:var(--dim);font-size:.85rem}
+@media(max-width:640px){.board th:nth-child(3),.board td:nth-child(3){display:none}}
+</style></head><body><div class="wrap">
+<header><a class="brand" href="/">SOLO VAGABOND</a><span class="clock">DAY <span data-days>2,500</span> OF THE TRIP</span></header>
+<main>
+<p class="wip" role="note">Work in progress: this site is still being built, and more detailed info is coming soon!</p>
+<h1>Departures: one trip, no final gate.</h1>
+<p class="lede">I’m Matty. Brooklyn and Manhattan were home. On December 10, 2019 I left JFK on EVA Air, on a one-way flight to Taiwan, and I’ve been moving slowly around the world since. This is the board of where it has taken me and what’s next.</p>
+<div class="facts"><div><b>78</b>countries visited</div><div><b data-years>6.9076</b>years on the road</div><div><b>~130</b>country goal</div></div>
+<h2>Bases and stops</h2>
+<table class="board"><thead><tr><th>Place</th><th>Notes</th><th>Status</th></tr></thead><tbody>
+<tr><td>New York JFK</td><td>Home was Brooklyn and Manhattan. Left on December 10, 2019</td><td class="status ok">Departed</td></tr>
+<tr><td>Taiwan</td><td>First stop, on a one-way EVA Air flight from JFK</td><td class="status ok">Departed</td></tr>
+<tr><td>Phnom Penh</td><td>Pandemic hold from 2020 until May 8, 2021</td><td class="status ok">Departed</td></tr>
+<tr><td>Tirana</td><td>My recurring Balkans home base</td><td class="status ok">Departed</td></tr>
+<tr><td>Belgrade</td><td>Another long Balkans stay</td><td class="status ok">Departed</td></tr>
+<tr><td>Bangkok</td><td>Extended stay in the middle of Southeast Asia</td><td class="status ok">Departed</td></tr>
+<tr><td>El Médano</td><td>Canary Islands base</td><td class="status ok">Departed</td></tr>
+<tr><td>Kuala Lumpur</td><td>Spring 2026</td><td class="status ok">Departed</td></tr>
+<tr><td>~50 more countries</td><td>Slower pace, same plan</td><td class="status go">Boarding</td></tr>
+</tbody></table>
+<h2>Three ways I travel</h2>
+<div class="facts"><div><h3>Slomad</h3>Slow nomad. I stay weeks or months in one place on tourist visas and extensions, then move on.</div><div><h3>Cross-country free camping</h3>Crossing countries and camping for free instead of booking rooms.</div><div><h3>Flashpacker</h3>A backpacker who spends a little more on comfort: budget and mid-range rooms, good internet and a camera.</div></div>
+<h2>Follow along</h2>
+<ul class="links"><li><a href="#">YouTube</a></li><li><a href="#">Instagram</a></li><li><a href="#">Facebook</a></li><li><a href="#">LinkedIn</a></li></ul>
+</main><footer>© Solo Vagabond</footer></div>
+<script>(function(){var n=new Date(),d=Math.floor((Date.UTC(n.getFullYear(),n.getMonth(),n.getDate())-Date.UTC(2019,11,10))/864e5);document.querySelectorAll("[data-days]").forEach(function(e){e.textContent=d.toLocaleString("en-US")});document.querySelectorAll("[data-years]").forEach(function(e){e.textContent=(d/365.25).toFixed(4)});})();</script></body></html>
