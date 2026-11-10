@@ -62,3 +62,8 @@ blockquote.pull small{display:block;margin-top:.75rem;font:400 .8rem "Space Mono
 .route b{color:var(--amber)}
 .fine{color:var(--dim);font-size:.85rem;max-width:30rem}
 @media(max-width:60rem){.layout{grid-template-columns:1fr}.aside{position:static}}
+
+footer .follow{margin:0 0 .6rem;font:700 .72rem "Space Mono",monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--amber)}
+footer .social{list-style:none;display:flex;flex-wrap:wrap;gap:.4rem 1.5rem;padding:0;margin:0 0 1.2rem}
+footer .social a{color:var(--text);font-weight:700;font-size:.95rem;text-decoration:none;border-bottom:2px solid transparent;padding:.2rem 0}
+footer .social a:hover,footer .social a:focus-visible{color:var(--amber);border-bottom-color:var(--amber)}
